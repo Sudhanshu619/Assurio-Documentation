@@ -77,7 +77,20 @@ site:
       key: section-group-2
       title: DAN AI
       icon: folder
-      children: []
+      children:
+        - type: section
+          key: dan-ai-section
+          title: DAN AI
+          path: dan-ai
+          icon: book-blank
+          children:
+            - type: space
+              key: dan-ai-space
+              title: DAN AI
+              path: dan-ai
+              default: true
+              content:
+                directory: ./dan-ai
     - type: section-group
       key: section-group-3
       title: "Pulastya AI "
