@@ -1,0 +1,67 @@
+# Summary
+
+## HOME
+* [Welcome to Assurio](README.md)
+
+## DOCUMENTATION
+* [Documentation home](documentation/README.md)
+* [Getting started](documentation/getting-started/README.md)
+    * [Quickstart](documentation/getting-started/quickstart.md)
+    * [Your first assurance review](documentation/getting-started/first-assurance-review.md)
+* [Core concepts](documentation/core-concepts/README.md)
+    * [Organizations, scopes and projects](documentation/core-concepts/workspaces-projects.md)
+    * [Roles and permissions](documentation/core-concepts/roles-permissions.md)
+    * [AI systems and baselines](documentation/core-concepts/systems-baselines.md)
+    * [Requirements and claims](documentation/core-concepts/requirements-claims.md)
+    * [Risk, impact and controls](documentation/core-concepts/risk-and-controls.md)
+    * [TEVV, evidence and findings](documentation/core-concepts/tevv-evidence-findings.md)
+    * [Decisions and change](documentation/core-concepts/decisions-change.md)
+* [Guides](documentation/guides/README.md)
+    * [Register an AI system](documentation/guides/register-system.md)
+    * [Governance assessment](documentation/guides/governance-assessment.md)
+    * [Risk and impact assessment](documentation/guides/risk-and-impact.md)
+    * [Requirements and controls](documentation/guides/requirement-and-controls.md)
+    * [Plan a TEVV campaign](documentation/guides/tevv-campaign.md)
+    * [Review evidence](documentation/guides/evidence-review.md)
+    * [Manage findings](documentation/guides/resolve-findings.md)
+    * [Scoped approval decision](documentation/guides/scoped-approval.md)
+    * [Govern agentic AI](documentation/guides/agentic-ai.md)
+    * [Assure adaptive AI](documentation/guides/adaptive-ai.md)
+    * [Monitor changes and reassess](documentation/guides/change-reassessment.md)
+    * [Plan integrations](documentation/guides/integrations.md)
+    * [Prepare an audit package](documentation/guides/audit-package.md)
+    * [Configure team access](documentation/guides/team-access.md)
+    * [Deployments](documentation/guides/deployments.md)
+* [Reference](documentation/reference/README.md)
+    * [Data dictionary](documentation/reference/data-dictionary.md)
+    * [Traceability and lineage](documentation/reference/traceability.md)
+    * [Risk scoring](documentation/reference/risk-scoring.md)
+    * [Decision states](documentation/reference/decision-states.md)
+    * [Evidence quality](documentation/reference/evidence-quality.md)
+    * [Framework mapping](documentation/reference/framework-mapping.md)
+    * [Configuration reference](documentation/reference/configuration.md)
+    * [Glossary](documentation/reference/glossary.md)
+    * [Assurance templates](documentation/reference/templates.md)
+
+## API REFERENCE
+* [API reference home](api-reference/README.md)
+* [Authentication and authorization](api-reference/authentication.md)
+* [Resource model](api-reference/objects.md)
+* [Endpoint contract worksheet](api-reference/contract-design.md)
+* [Events and webhooks](api-reference/webhooks.md)
+* [Errors, retries and limits](api-reference/errors-and-limits.md)
+
+## CHANGELOG
+* [Product updates](changelog/README.md)
+
+## HELP CENTER
+* [Help center home](help-center/README.md)
+* [Account and access](help-center/account-access.md)
+* [Permissions and approvals](help-center/permissions.md)
+* [Evidence and evaluations](help-center/evidence.md)
+* [Monitoring and reassessment](help-center/monitoring.md)
+* [Integration troubleshooting](help-center/integrations.md)
+* [Troubleshooting](help-center/troubleshooting.md)
+* [FAQs](help-center/faq.md)
+* [Contact support](help-center/support.md)
+
