@@ -211,8 +211,9 @@ def main():
         sections = {}
         for page in records:
             sections.setdefault(page['section_slug'], []).append(page)
-        # Every application has a catalog overview, including those marked Docs soon.
-        sections.setdefault('overview', [])
+        # Unpublished applications remain named, empty groups.
+        if records:
+            sections.setdefault('overview', [])
         old = next((g for g in existing if g.get('title', '').strip() == app['title']), None)
         group = dict(type='section-group', key=old['key'] if old else 'app-' + app['slug'], title=app['title'], icon='folder', children=[])
         for section, members in sorted(sections.items(), key=lambda x: (-1 if x[0] == 'overview' else min(p['order'] for p in x[1]), x[0])):
@@ -220,8 +221,6 @@ def main():
             directory = Path('applications') / app['slug'] / section
             summary = ['# Summary', '', f'* [{label}](README.md)']
             overview = [f'# {app["title"]} — {label}', '', app['description'], '', f'**Category:** {app["category"]}', '']
-            if not records:
-                overview += ['## Documentation status', '', 'The source catalog marks this application **Docs soon**. Detailed guides are not yet published there.', '']
             if app['tags']:
                 overview += ['**Topics:** ' + ', '.join(app['tags']), '']
             if members:
@@ -261,7 +260,7 @@ def main():
     lines = ['# SDLC documentation import', '', f'Source: {BASE}', '',
              f'Imported {len(apps)} application groups and {len(pages)} source articles. Existing non-catalog groups are retained.', '',
              'Each application has its own group, with source sections beneath it. Versioned guides remain separate from current guides.', '',
-             'Images use their original hosted URLs. Each imported article links to its source. Applications without published guides have a catalog overview and an explicit documentation-status note.', '',
+             'Images use their original hosted URLs. Each imported article links to its source. Applications marked Docs soon remain named, empty groups with no sections or pages.', '',
              '| Application | Source articles | Sections |', '| --- | ---: | --- |']
     lines += [f'| {a["title"]} | {a["article_count"]} | {", ".join(a["sections"])} |' for a in manifest]
     if errors:

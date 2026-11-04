@@ -708,38 +708,12 @@ site:
     key: app-amazon-vendor-central-odoo-connector
     title: Amazon Vendor Central - Odoo Connector
     icon: folder
-    children:
-    - type: section
-      key: amazon-vendor-central-odoo-connector-overview-section
-      title: Overview
-      path: amazon-vendor-central-odoo-connector
-      icon: book-blank
-      children:
-      - type: space
-        key: amazon-vendor-central-odoo-connector-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/amazon-vendor-central-odoo-connector/overview
+    children: []
   - type: section-group
     key: app-power-bi-connector-odata-v4
     title: Power BI Connector (OData v4)
     icon: folder
-    children:
-    - type: section
-      key: power-bi-connector-odata-v4-overview-section
-      title: Overview
-      path: power-bi-connector-odata-v4
-      icon: book-blank
-      children:
-      - type: space
-        key: power-bi-connector-odata-v4-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/power-bi-connector-odata-v4/overview
+    children: []
   - type: section-group
     key: app-construction-management
     title: Construction Management
@@ -1742,146 +1716,42 @@ site:
     key: app-odoo-chatter-position
     title: Odoo Chatter Position
     icon: folder
-    children:
-    - type: section
-      key: odoo-chatter-position-overview-section
-      title: Overview
-      path: odoo-chatter-position
-      icon: book-blank
-      children:
-      - type: space
-        key: odoo-chatter-position-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/odoo-chatter-position/overview
+    children: []
   - type: section-group
     key: app-odoo-ip-restriction
     title: Odoo IP Restriction
     icon: folder
-    children:
-    - type: section
-      key: odoo-ip-restriction-overview-section
-      title: Overview
-      path: odoo-ip-restriction
-      icon: book-blank
-      children:
-      - type: space
-        key: odoo-ip-restriction-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/odoo-ip-restriction/overview
+    children: []
   - type: section-group
     key: app-user-login-audit
     title: User Login Audit
     icon: folder
-    children:
-    - type: section
-      key: user-login-audit-overview-section
-      title: Overview
-      path: user-login-audit
-      icon: book-blank
-      children:
-      - type: space
-        key: user-login-audit-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/user-login-audit/overview
+    children: []
   - type: section-group
     key: app-parking-management-system
     title: Parking Management System
     icon: folder
-    children:
-    - type: section
-      key: parking-management-system-overview-section
-      title: Overview
-      path: parking-management-system
-      icon: book-blank
-      children:
-      - type: space
-        key: parking-management-system-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/parking-management-system/overview
+    children: []
   - type: section-group
     key: app-pos-receipt-designer
     title: POS Receipt Designer
     icon: folder
-    children:
-    - type: section
-      key: pos-receipt-designer-overview-section
-      title: Overview
-      path: pos-receipt-designer
-      icon: book-blank
-      children:
-      - type: space
-        key: pos-receipt-designer-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/pos-receipt-designer/overview
+    children: []
   - type: section-group
     key: app-bi-dashboard-ai
     title: BI Dashboard AI
     icon: folder
-    children:
-    - type: section
-      key: bi-dashboard-ai-overview-section
-      title: Overview
-      path: bi-dashboard-ai
-      icon: book-blank
-      children:
-      - type: space
-        key: bi-dashboard-ai-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/bi-dashboard-ai/overview
+    children: []
   - type: section-group
     key: app-printbridge
     title: PrintBridge
     icon: folder
-    children:
-    - type: section
-      key: printbridge-overview-section
-      title: Overview
-      path: printbridge
-      icon: book-blank
-      children:
-      - type: space
-        key: printbridge-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/printbridge/overview
+    children: []
   - type: section-group
     key: app-dashboard-ninja-ai
     title: Dashboard Ninja AI
     icon: folder
-    children:
-    - type: section
-      key: dashboard-ninja-ai-overview-section
-      title: Overview
-      path: dashboard-ninja-ai
-      icon: book-blank
-      children:
-      - type: space
-        key: dashboard-ninja-ai-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/dashboard-ninja-ai/overview
+    children: []
   - type: section-group
     key: section-group-2
     title: DAN AI
@@ -2026,467 +1896,129 @@ site:
     key: app-assetiq
     title: AssetIQ
     icon: folder
-    children:
-    - type: section
-      key: assetiq-overview-section
-      title: Overview
-      path: assetiq
-      icon: book-blank
-      children:
-      - type: space
-        key: assetiq-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/assetiq/overview
+    children: []
   - type: section-group
     key: app-careready
     title: Careready
     icon: folder
-    children:
-    - type: section
-      key: careready-overview-section
-      title: Overview
-      path: careready
-      icon: book-blank
-      children:
-      - type: space
-        key: careready-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/careready/overview
+    children: []
   - type: section-group
     key: app-causeway
     title: Causeway
     icon: folder
-    children:
-    - type: section
-      key: causeway-overview-section
-      title: Overview
-      path: causeway
-      icon: book-blank
-      children:
-      - type: space
-        key: causeway-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/causeway/overview
+    children: []
   - type: section-group
     key: app-cleardue
     title: Cleardue
     icon: folder
-    children:
-    - type: section
-      key: cleardue-overview-section
-      title: Overview
-      path: cleardue
-      icon: book-blank
-      children:
-      - type: space
-        key: cleardue-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/cleardue/overview
+    children: []
   - type: section-group
     key: app-convera-chatbot
     title: Convera Chatbot
     icon: folder
-    children:
-    - type: section
-      key: convera-chatbot-overview-section
-      title: Overview
-      path: convera-chatbot
-      icon: book-blank
-      children:
-      - type: space
-        key: convera-chatbot-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/convera-chatbot/overview
+    children: []
   - type: section-group
     key: app-curatio
     title: Curatio
     icon: folder
-    children:
-    - type: section
-      key: curatio-overview-section
-      title: Overview
-      path: curatio
-      icon: book-blank
-      children:
-      - type: space
-        key: curatio-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/curatio/overview
+    children: []
   - type: section-group
     key: app-custos
     title: Custos
     icon: folder
-    children:
-    - type: section
-      key: custos-overview-section
-      title: Overview
-      path: custos
-      icon: book-blank
-      children:
-      - type: space
-        key: custos-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/custos/overview
+    children: []
   - type: section-group
     key: app-enclave
     title: Enclave
     icon: folder
-    children:
-    - type: section
-      key: enclave-overview-section
-      title: Overview
-      path: enclave
-      icon: book-blank
-      children:
-      - type: space
-        key: enclave-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/enclave/overview
+    children: []
   - type: section-group
     key: app-fiscora
     title: Fiscora
     icon: folder
-    children:
-    - type: section
-      key: fiscora-overview-section
-      title: Overview
-      path: fiscora
-      icon: book-blank
-      children:
-      - type: space
-        key: fiscora-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/fiscora/overview
+    children: []
   - type: section-group
     key: app-foresite
     title: Foresite
     icon: folder
-    children:
-    - type: section
-      key: foresite-overview-section
-      title: Overview
-      path: foresite
-      icon: book-blank
-      children:
-      - type: space
-        key: foresite-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/foresite/overview
+    children: []
   - type: section-group
     key: app-limina
     title: Limina
     icon: folder
-    children:
-    - type: section
-      key: limina-overview-section
-      title: Overview
-      path: limina
-      icon: book-blank
-      children:
-      - type: space
-        key: limina-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/limina/overview
+    children: []
   - type: section-group
     key: app-loquio
     title: Loquio
     icon: folder
-    children:
-    - type: section
-      key: loquio-overview-section
-      title: Overview
-      path: loquio
-      icon: book-blank
-      children:
-      - type: space
-        key: loquio-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/loquio/overview
+    children: []
   - type: section-group
     key: app-matrica
     title: Matrica
     icon: folder
-    children:
-    - type: section
-      key: matrica-overview-section
-      title: Overview
-      path: matrica
-      icon: book-blank
-      children:
-      - type: space
-        key: matrica-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/matrica/overview
+    children: []
   - type: section-group
     key: app-migration-global-step
     title: Migration Global Step
     icon: folder
-    children:
-    - type: section
-      key: migration-global-step-overview-section
-      title: Overview
-      path: migration-global-step
-      icon: book-blank
-      children:
-      - type: space
-        key: migration-global-step-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/migration-global-step/overview
+    children: []
   - type: section-group
     key: app-narratio
     title: Narratio
     icon: folder
-    children:
-    - type: section
-      key: narratio-overview-section
-      title: Overview
-      path: narratio
-      icon: book-blank
-      children:
-      - type: space
-        key: narratio-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/narratio/overview
+    children: []
   - type: section-group
     key: app-narravyn
     title: Narravyn
     icon: folder
-    children:
-    - type: section
-      key: narravyn-overview-section
-      title: Overview
-      path: narravyn
-      icon: book-blank
-      children:
-      - type: space
-        key: narravyn-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/narravyn/overview
+    children: []
   - type: section-group
     key: app-praxis-ai
     title: Praxis AI
     icon: folder
-    children:
-    - type: section
-      key: praxis-ai-overview-section
-      title: Overview
-      path: praxis-ai
-      icon: book-blank
-      children:
-      - type: space
-        key: praxis-ai-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/praxis-ai/overview
+    children: []
   - type: section-group
     key: app-provisio
     title: Provisio
     icon: folder
-    children:
-    - type: section
-      key: provisio-overview-section
-      title: Overview
-      path: provisio
-      icon: book-blank
-      children:
-      - type: space
-        key: provisio-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/provisio/overview
+    children: []
   - type: section-group
     key: section-group-3
     title: Pulastya AI
     icon: folder
-    children:
-    - type: section
-      key: pulastya-ai-overview-section
-      title: Overview
-      path: pulastya-ai
-      icon: book-blank
-      children:
-      - type: space
-        key: pulastya-ai-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/pulastya-ai/overview
+    children: []
   - type: section-group
     key: app-reservo-fuel
     title: Reservo Fuel
     icon: folder
-    children:
-    - type: section
-      key: reservo-fuel-overview-section
-      title: Overview
-      path: reservo-fuel
-      icon: book-blank
-      children:
-      - type: space
-        key: reservo-fuel-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/reservo-fuel/overview
+    children: []
   - type: section-group
     key: app-rostra
     title: Rostra
     icon: folder
-    children:
-    - type: section
-      key: rostra-overview-section
-      title: Overview
-      path: rostra
-      icon: book-blank
-      children:
-      - type: space
-        key: rostra-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/rostra/overview
+    children: []
   - type: section-group
     key: app-stockyard
     title: Stockyard
     icon: folder
-    children:
-    - type: section
-      key: stockyard-overview-section
-      title: Overview
-      path: stockyard
-      icon: book-blank
-      children:
-      - type: space
-        key: stockyard-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/stockyard/overview
+    children: []
   - type: section-group
     key: app-tractus
     title: Tractus
     icon: folder
-    children:
-    - type: section
-      key: tractus-overview-section
-      title: Overview
-      path: tractus
-      icon: book-blank
-      children:
-      - type: space
-        key: tractus-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/tractus/overview
+    children: []
   - type: section-group
     key: app-trestle
     title: Trestle
     icon: folder
-    children:
-    - type: section
-      key: trestle-overview-section
-      title: Overview
-      path: trestle
-      icon: book-blank
-      children:
-      - type: space
-        key: trestle-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/trestle/overview
+    children: []
   - type: section-group
     key: app-vantage-industrial-vision
     title: Vantage Industrial Vision
     icon: folder
-    children:
-    - type: section
-      key: vantage-industrial-vision-overview-section
-      title: Overview
-      path: vantage-industrial-vision
-      icon: book-blank
-      children:
-      - type: space
-        key: vantage-industrial-vision-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/vantage-industrial-vision/overview
+    children: []
   - type: section-group
     key: app-wayfare
     title: Wayfare
     icon: folder
-    children:
-    - type: section
-      key: wayfare-overview-section
-      title: Overview
-      path: wayfare
-      icon: book-blank
-      children:
-      - type: space
-        key: wayfare-overview-space
-        title: Overview
-        path: overview
-        default: true
-        content:
-          directory: ./applications/wayfare/overview
+    children: []

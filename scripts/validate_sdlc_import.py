@@ -44,6 +44,10 @@ names = {g['title'].strip() for g in config['site']['structure']}
 for app in manifest['applications']:
     if app['title'] not in names:
         errors.append('Application missing from GitBook: ' + app['title'])
+    if app['article_count'] == 0:
+        group = next((g for g in config['site']['structure'] if g['title'].strip() == app['title']), None)
+        if group and group.get('children'):
+            errors.append('Docs soon group must be empty: ' + app['title'])
 for page in manifest['pages']:
     path = ROOT / page['file']
     if path.resolve() not in covered:

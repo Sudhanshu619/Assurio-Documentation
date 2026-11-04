@@ -6,7 +6,7 @@ Imported 61 application groups and 813 source articles. Existing non-catalog gro
 
 Each application has its own group, with source sections beneath it. Versioned guides remain separate from current guides.
 
-Images use their original hosted URLs. Each imported article links to its source. Applications without published guides have a catalog overview and an explicit documentation-status note.
+Images use their original hosted URLs. Each imported article links to its source. Applications marked Docs soon remain named, empty groups with no sections or pages.
 
 | Application | Source articles | Sections |
 | --- | ---: | --- |
@@ -18,8 +18,8 @@ Images use their original hosted URLs. Each imported article links to its source
 | BigCommerce - Odoo Connector | 20 | Overview, Getting Started, Data Sync, Configuration, Reference |
 | Amazon - Odoo Connector | 76 | Overview, Getting Started, Core Features, FBA Operations, AI Features, Reference |
 | eBay - Odoo Connector | 4 | Overview |
-| Amazon Vendor Central - Odoo Connector | 0 | Overview |
-| Power BI Connector (OData v4) | 0 | Overview |
+| Amazon Vendor Central - Odoo Connector | 0 | |
+| Power BI Connector (OData v4) | 0 | |
 | Construction Management | 36 | Overview, Getting Started, Projects, Operations, Reports, Reference |
 | Hotel Management System | 52 | Overview, Getting Started, Dashboards, Reservations, Guests, Operations, Services, Reports, Guest Portal, Reference |
 | HRMS Dashboard | 24 | Overview, Getting Started, Usage Guide, Reference |
@@ -35,39 +35,39 @@ Images use their original hosted URLs. Each imported article links to its source
 | Maintenance QR Generator | 20 | Overview, Getting Started, Usage Guide, Reference |
 | Access Management | 4 | Overview |
 | Asset Management | 5 | Overview, Getting Started, Usage, Reference |
-| Odoo Chatter Position | 0 | Overview |
-| Odoo IP Restriction | 0 | Overview |
-| User Login Audit | 0 | Overview |
-| Parking Management System | 0 | Overview |
-| POS Receipt Designer | 0 | Overview |
-| BI Dashboard AI | 0 | Overview |
-| PrintBridge | 0 | Overview |
-| Dashboard Ninja AI | 0 | Overview |
+| Odoo Chatter Position | 0 | |
+| Odoo IP Restriction | 0 | |
+| User Login Audit | 0 | |
+| Parking Management System | 0 | |
+| POS Receipt Designer | 0 | |
+| BI Dashboard AI | 0 | |
+| PrintBridge | 0 | |
+| Dashboard Ninja AI | 0 | |
 | DAN AI | 11 | Overview, Getting Started, Creating an Extraction, Features, Export & Delivery, Reference |
 | Conflux | 17 | Overview, Getting Started, The Console, Page by Page, Reference |
-| AssetIQ | 0 | Overview |
-| Careready | 0 | Overview |
-| Causeway | 0 | Overview |
-| Cleardue | 0 | Overview |
-| Convera Chatbot | 0 | Overview |
-| Curatio | 0 | Overview |
-| Custos | 0 | Overview |
-| Enclave | 0 | Overview |
-| Fiscora | 0 | Overview |
-| Foresite | 0 | Overview |
-| Limina | 0 | Overview |
-| Loquio | 0 | Overview |
-| Matrica | 0 | Overview |
-| Migration Global Step | 0 | Overview |
-| Narratio | 0 | Overview |
-| Narravyn | 0 | Overview |
-| Praxis AI | 0 | Overview |
-| Provisio | 0 | Overview |
-| Pulastya AI | 0 | Overview |
-| Reservo Fuel | 0 | Overview |
-| Rostra | 0 | Overview |
-| Stockyard | 0 | Overview |
-| Tractus | 0 | Overview |
-| Trestle | 0 | Overview |
-| Vantage Industrial Vision | 0 | Overview |
-| Wayfare | 0 | Overview |
+| AssetIQ | 0 | |
+| Careready | 0 | |
+| Causeway | 0 | |
+| Cleardue | 0 | |
+| Convera Chatbot | 0 | |
+| Curatio | 0 | |
+| Custos | 0 | |
+| Enclave | 0 | |
+| Fiscora | 0 | |
+| Foresite | 0 | |
+| Limina | 0 | |
+| Loquio | 0 | |
+| Matrica | 0 | |
+| Migration Global Step | 0 | |
+| Narratio | 0 | |
+| Narravyn | 0 | |
+| Praxis AI | 0 | |
+| Provisio | 0 | |
+| Pulastya AI | 0 | |
+| Reservo Fuel | 0 | |
+| Rostra | 0 | |
+| Stockyard | 0 | |
+| Tractus | 0 | |
+| Trestle | 0 | |
+| Vantage Industrial Vision | 0 | |
+| Wayfare | 0 | |
