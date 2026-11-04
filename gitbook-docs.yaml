@@ -2,104 +2,2491 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: Saas Apps Docs
   structure:
-    - type: section-group
-      key: section-group-1
-      title: "Assurio "
-      icon: folder
+  - type: section-group
+    key: section-group-1
+    title: 'Assurio '
+    icon: folder
+    children:
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      icon: house
+      default: true
       children:
-        - type: section
-          key: section-1
-          title: Home
-          path: home
-          icon: house
-          default: true
-          children:
-            - type: space
-              key: space-1
-              title: Home
-              path: home
-              default: true
-              content:
-                directory: ./home
-        - type: section
-          key: section-2
-          title: Documentation
-          path: documentation
-          icon: book-blank
-          children:
-            - type: space
-              key: space-2
-              title: Documentation
-              path: documentation
-              default: true
-              content:
-                directory: ./documentation
-        - type: section
-          key: section-3
-          title: API Reference
-          path: api-reference
-          icon: terminal
-          children:
-            - type: space
-              key: space-3
-              title: API Reference
-              path: api-reference
-              default: true
-              content:
-                directory: ./api-reference
-        - type: section
-          key: section-4
-          title: Changelog
-          path: changelog
-          icon: clock-rotate-left
-          children:
-            - type: space
-              key: space-4
-              title: Changelog
-              path: changelog
-              default: true
-              content:
-                directory: ./changelog
-        - type: section
-          key: section-5
-          title: Help Center
-          path: help-center
-          icon: life-ring
-          children:
-            - type: space
-              key: space-5
-              title: Help Center
-              path: help-center
-              default: true
-              content:
-                directory: ./help-center
-    - type: section-group
-      key: section-group-2
-      title: DAN AI
-      icon: folder
+      - type: space
+        key: space-1
+        title: Home
+        path: home
+        default: true
+        content:
+          directory: ./home
+    - type: section
+      key: section-2
+      title: Documentation
+      path: documentation
+      icon: book-blank
       children:
-        - type: section
-          key: dan-ai-section
-          title: DAN AI
-          path: dan-ai
-          icon: book-blank
-          children:
-            - type: space
-              key: dan-ai-space
-              title: DAN AI
-              path: dan-ai
-              default: true
-              content:
-                directory: ./dan-ai
-    - type: section-group
-      key: section-group-3
-      title: "Pulastya AI "
-      icon: folder
-      draft: true
-      children: []
-    - type: section-group
-      key: section-group-4
-      title: AssetERP
-      icon: folder
-      draft: true
-      children: []
+      - type: space
+        key: space-2
+        title: Documentation
+        path: documentation
+        default: true
+        content:
+          directory: ./documentation
+    - type: section
+      key: section-3
+      title: API Reference
+      path: api-reference
+      icon: terminal
+      children:
+      - type: space
+        key: space-3
+        title: API Reference
+        path: api-reference
+        default: true
+        content:
+          directory: ./api-reference
+    - type: section
+      key: section-4
+      title: Changelog
+      path: changelog
+      icon: clock-rotate-left
+      children:
+      - type: space
+        key: space-4
+        title: Changelog
+        path: changelog
+        default: true
+        content:
+          directory: ./changelog
+    - type: section
+      key: section-5
+      title: Help Center
+      path: help-center
+      icon: life-ring
+      children:
+      - type: space
+        key: space-5
+        title: Help Center
+        path: help-center
+        default: true
+        content:
+          directory: ./help-center
+  - type: section-group
+    key: section-group-4
+    title: AssetERP
+    icon: folder
+    draft: true
+    children: []
+  - type: section-group
+    key: app-shopify-odoo-connector
+    title: Shopify - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: shopify-odoo-connector-overview-section
+      title: Overview
+      path: shopify-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/overview
+    - type: section
+      key: shopify-odoo-connector-installation-section
+      title: Installation
+      path: shopify-odoo-connector-installation
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-installation-space
+        title: Installation
+        path: installation
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/installation
+    - type: section
+      key: shopify-odoo-connector-configuration-section
+      title: Configuration
+      path: shopify-odoo-connector-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/configuration
+    - type: section
+      key: shopify-odoo-connector-products-section
+      title: Products
+      path: shopify-odoo-connector-products
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-products-space
+        title: Products
+        path: products
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/products
+    - type: section
+      key: shopify-odoo-connector-orders-section
+      title: Orders
+      path: shopify-odoo-connector-orders
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-orders-space
+        title: Orders
+        path: orders
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/orders
+    - type: section
+      key: shopify-odoo-connector-operations-section
+      title: Operations
+      path: shopify-odoo-connector-operations
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-operations-space
+        title: Operations
+        path: operations
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/operations
+    - type: section
+      key: shopify-odoo-connector-reports-section
+      title: Reports
+      path: shopify-odoo-connector-reports
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-reports-space
+        title: Reports
+        path: reports
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/reports
+    - type: section
+      key: shopify-odoo-connector-reference-section
+      title: Reference
+      path: shopify-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: shopify-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/shopify-odoo-connector/reference
+  - type: section-group
+    key: app-woocommerce-odoo-connector
+    title: WooCommerce - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: woocommerce-odoo-connector-overview-section
+      title: Overview
+      path: woocommerce-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: woocommerce-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/woocommerce-odoo-connector/overview
+    - type: section
+      key: woocommerce-odoo-connector-getting-started-section
+      title: Getting Started
+      path: woocommerce-odoo-connector-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: woocommerce-odoo-connector-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/woocommerce-odoo-connector/getting-started
+    - type: section
+      key: woocommerce-odoo-connector-data-sync-section
+      title: Data Sync
+      path: woocommerce-odoo-connector-data-sync
+      icon: book-blank
+      children:
+      - type: space
+        key: woocommerce-odoo-connector-data-sync-space
+        title: Data Sync
+        path: data-sync
+        default: true
+        content:
+          directory: ./applications/woocommerce-odoo-connector/data-sync
+    - type: section
+      key: woocommerce-odoo-connector-configuration-section
+      title: Configuration
+      path: woocommerce-odoo-connector-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: woocommerce-odoo-connector-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/woocommerce-odoo-connector/configuration
+    - type: section
+      key: woocommerce-odoo-connector-reference-section
+      title: Reference
+      path: woocommerce-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: woocommerce-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/woocommerce-odoo-connector/reference
+  - type: section-group
+    key: app-shipstation-odoo-connector
+    title: ShipStation - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: shipstation-odoo-connector-overview-section
+      title: Overview
+      path: shipstation-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: shipstation-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/shipstation-odoo-connector/overview
+    - type: section
+      key: shipstation-odoo-connector-getting-started-section
+      title: Getting Started
+      path: shipstation-odoo-connector-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: shipstation-odoo-connector-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/shipstation-odoo-connector/getting-started
+    - type: section
+      key: shipstation-odoo-connector-data-sync-section
+      title: Data Sync
+      path: shipstation-odoo-connector-data-sync
+      icon: book-blank
+      children:
+      - type: space
+        key: shipstation-odoo-connector-data-sync-space
+        title: Data Sync
+        path: data-sync
+        default: true
+        content:
+          directory: ./applications/shipstation-odoo-connector/data-sync
+    - type: section
+      key: shipstation-odoo-connector-configuration-section
+      title: Configuration
+      path: shipstation-odoo-connector-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: shipstation-odoo-connector-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/shipstation-odoo-connector/configuration
+    - type: section
+      key: shipstation-odoo-connector-reference-section
+      title: Reference
+      path: shipstation-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: shipstation-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/shipstation-odoo-connector/reference
+  - type: section-group
+    key: app-magento2-odoo-connector
+    title: Magento 2 - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: magento2-odoo-connector-overview-section
+      title: Overview
+      path: magento2-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/overview
+    - type: section
+      key: magento2-odoo-connector-getting-started-section
+      title: Getting Started
+      path: magento2-odoo-connector-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/getting-started
+    - type: section
+      key: magento2-odoo-connector-configuration-section
+      title: Configuration
+      path: magento2-odoo-connector-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/configuration
+    - type: section
+      key: magento2-odoo-connector-data-sync-section
+      title: Data Sync
+      path: magento2-odoo-connector-data-sync
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-data-sync-space
+        title: Data Sync
+        path: data-sync
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/data-sync
+    - type: section
+      key: magento2-odoo-connector-sales-section
+      title: Sales
+      path: magento2-odoo-connector-sales
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-sales-space
+        title: Sales
+        path: sales
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/sales
+    - type: section
+      key: magento2-odoo-connector-advanced-section
+      title: Advanced
+      path: magento2-odoo-connector-advanced
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-advanced-space
+        title: Advanced
+        path: advanced
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/advanced
+    - type: section
+      key: magento2-odoo-connector-reference-section
+      title: Reference
+      path: magento2-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: magento2-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/magento2-odoo-connector/reference
+  - type: section-group
+    key: app-prestashop-odoo-connector
+    title: PrestaShop - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: prestashop-odoo-connector-overview-section
+      title: Overview
+      path: prestashop-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/overview
+    - type: section
+      key: prestashop-odoo-connector-installation-section
+      title: Installation
+      path: prestashop-odoo-connector-installation
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-installation-space
+        title: Installation
+        path: installation
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/installation
+    - type: section
+      key: prestashop-odoo-connector-configuration-section
+      title: Configuration
+      path: prestashop-odoo-connector-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/configuration
+    - type: section
+      key: prestashop-odoo-connector-catalog-section
+      title: Catalog
+      path: prestashop-odoo-connector-catalog
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-catalog-space
+        title: Catalog
+        path: catalog
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/catalog
+    - type: section
+      key: prestashop-odoo-connector-customers-section
+      title: Customers
+      path: prestashop-odoo-connector-customers
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-customers-space
+        title: Customers
+        path: customers
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/customers
+    - type: section
+      key: prestashop-odoo-connector-orders-section
+      title: Orders
+      path: prestashop-odoo-connector-orders
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-orders-space
+        title: Orders
+        path: orders
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/orders
+    - type: section
+      key: prestashop-odoo-connector-inventory-section
+      title: Inventory
+      path: prestashop-odoo-connector-inventory
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-inventory-space
+        title: Inventory
+        path: inventory
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/inventory
+    - type: section
+      key: prestashop-odoo-connector-reference-section
+      title: Reference
+      path: prestashop-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: prestashop-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/prestashop-odoo-connector/reference
+  - type: section-group
+    key: app-bigcommerce-odoo-connector
+    title: BigCommerce - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: bigcommerce-odoo-connector-overview-section
+      title: Overview
+      path: bigcommerce-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: bigcommerce-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/bigcommerce-odoo-connector/overview
+    - type: section
+      key: bigcommerce-odoo-connector-getting-started-section
+      title: Getting Started
+      path: bigcommerce-odoo-connector-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: bigcommerce-odoo-connector-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/bigcommerce-odoo-connector/getting-started
+    - type: section
+      key: bigcommerce-odoo-connector-data-sync-section
+      title: Data Sync
+      path: bigcommerce-odoo-connector-data-sync
+      icon: book-blank
+      children:
+      - type: space
+        key: bigcommerce-odoo-connector-data-sync-space
+        title: Data Sync
+        path: data-sync
+        default: true
+        content:
+          directory: ./applications/bigcommerce-odoo-connector/data-sync
+    - type: section
+      key: bigcommerce-odoo-connector-configuration-section
+      title: Configuration
+      path: bigcommerce-odoo-connector-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: bigcommerce-odoo-connector-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/bigcommerce-odoo-connector/configuration
+    - type: section
+      key: bigcommerce-odoo-connector-reference-section
+      title: Reference
+      path: bigcommerce-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: bigcommerce-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/bigcommerce-odoo-connector/reference
+  - type: section-group
+    key: app-amazon-odoo-connector
+    title: Amazon - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: amazon-odoo-connector-overview-section
+      title: Overview
+      path: amazon-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/amazon-odoo-connector/overview
+    - type: section
+      key: amazon-odoo-connector-getting-started-section
+      title: Getting Started
+      path: amazon-odoo-connector-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-odoo-connector-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/amazon-odoo-connector/getting-started
+    - type: section
+      key: amazon-odoo-connector-core-features-section
+      title: Core Features
+      path: amazon-odoo-connector-core-features
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-odoo-connector-core-features-space
+        title: Core Features
+        path: core-features
+        default: true
+        content:
+          directory: ./applications/amazon-odoo-connector/core-features
+    - type: section
+      key: amazon-odoo-connector-fba-operations-section
+      title: FBA Operations
+      path: amazon-odoo-connector-fba-operations
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-odoo-connector-fba-operations-space
+        title: FBA Operations
+        path: fba-operations
+        default: true
+        content:
+          directory: ./applications/amazon-odoo-connector/fba-operations
+    - type: section
+      key: amazon-odoo-connector-ai-features-section
+      title: AI Features
+      path: amazon-odoo-connector-ai-features
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-odoo-connector-ai-features-space
+        title: AI Features
+        path: ai-features
+        default: true
+        content:
+          directory: ./applications/amazon-odoo-connector/ai-features
+    - type: section
+      key: amazon-odoo-connector-reference-section
+      title: Reference
+      path: amazon-odoo-connector-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-odoo-connector-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/amazon-odoo-connector/reference
+  - type: section-group
+    key: app-ebay-odoo-connector
+    title: eBay - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: ebay-odoo-connector-overview-section
+      title: Overview
+      path: ebay-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: ebay-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/ebay-odoo-connector/overview
+  - type: section-group
+    key: app-amazon-vendor-central-odoo-connector
+    title: Amazon Vendor Central - Odoo Connector
+    icon: folder
+    children:
+    - type: section
+      key: amazon-vendor-central-odoo-connector-overview-section
+      title: Overview
+      path: amazon-vendor-central-odoo-connector
+      icon: book-blank
+      children:
+      - type: space
+        key: amazon-vendor-central-odoo-connector-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/amazon-vendor-central-odoo-connector/overview
+  - type: section-group
+    key: app-power-bi-connector-odata-v4
+    title: Power BI Connector (OData v4)
+    icon: folder
+    children:
+    - type: section
+      key: power-bi-connector-odata-v4-overview-section
+      title: Overview
+      path: power-bi-connector-odata-v4
+      icon: book-blank
+      children:
+      - type: space
+        key: power-bi-connector-odata-v4-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/power-bi-connector-odata-v4/overview
+  - type: section-group
+    key: app-construction-management
+    title: Construction Management
+    icon: folder
+    children:
+    - type: section
+      key: construction-management-overview-section
+      title: Overview
+      path: construction-management
+      icon: book-blank
+      children:
+      - type: space
+        key: construction-management-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/construction-management/overview
+    - type: section
+      key: construction-management-getting-started-section
+      title: Getting Started
+      path: construction-management-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: construction-management-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/construction-management/getting-started
+    - type: section
+      key: construction-management-projects-section
+      title: Projects
+      path: construction-management-projects
+      icon: book-blank
+      children:
+      - type: space
+        key: construction-management-projects-space
+        title: Projects
+        path: projects
+        default: true
+        content:
+          directory: ./applications/construction-management/projects
+    - type: section
+      key: construction-management-operations-section
+      title: Operations
+      path: construction-management-operations
+      icon: book-blank
+      children:
+      - type: space
+        key: construction-management-operations-space
+        title: Operations
+        path: operations
+        default: true
+        content:
+          directory: ./applications/construction-management/operations
+    - type: section
+      key: construction-management-reports-section
+      title: Reports
+      path: construction-management-reports
+      icon: book-blank
+      children:
+      - type: space
+        key: construction-management-reports-space
+        title: Reports
+        path: reports
+        default: true
+        content:
+          directory: ./applications/construction-management/reports
+    - type: section
+      key: construction-management-reference-section
+      title: Reference
+      path: construction-management-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: construction-management-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/construction-management/reference
+  - type: section-group
+    key: app-hotel-management
+    title: Hotel Management System
+    icon: folder
+    children:
+    - type: section
+      key: hotel-management-overview-section
+      title: Overview
+      path: hotel-management
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/hotel-management/overview
+    - type: section
+      key: hotel-management-getting-started-section
+      title: Getting Started
+      path: hotel-management-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/hotel-management/getting-started
+    - type: section
+      key: hotel-management-dashboards-section
+      title: Dashboards
+      path: hotel-management-dashboards
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-dashboards-space
+        title: Dashboards
+        path: dashboards
+        default: true
+        content:
+          directory: ./applications/hotel-management/dashboards
+    - type: section
+      key: hotel-management-reservations-section
+      title: Reservations
+      path: hotel-management-reservations
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-reservations-space
+        title: Reservations
+        path: reservations
+        default: true
+        content:
+          directory: ./applications/hotel-management/reservations
+    - type: section
+      key: hotel-management-guests-section
+      title: Guests
+      path: hotel-management-guests
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-guests-space
+        title: Guests
+        path: guests
+        default: true
+        content:
+          directory: ./applications/hotel-management/guests
+    - type: section
+      key: hotel-management-operations-section
+      title: Operations
+      path: hotel-management-operations
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-operations-space
+        title: Operations
+        path: operations
+        default: true
+        content:
+          directory: ./applications/hotel-management/operations
+    - type: section
+      key: hotel-management-services-section
+      title: Services
+      path: hotel-management-services
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-services-space
+        title: Services
+        path: services
+        default: true
+        content:
+          directory: ./applications/hotel-management/services
+    - type: section
+      key: hotel-management-reports-section
+      title: Reports
+      path: hotel-management-reports
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-reports-space
+        title: Reports
+        path: reports
+        default: true
+        content:
+          directory: ./applications/hotel-management/reports
+    - type: section
+      key: hotel-management-guest-portal-section
+      title: Guest Portal
+      path: hotel-management-guest-portal
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-guest-portal-space
+        title: Guest Portal
+        path: guest-portal
+        default: true
+        content:
+          directory: ./applications/hotel-management/guest-portal
+    - type: section
+      key: hotel-management-reference-section
+      title: Reference
+      path: hotel-management-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: hotel-management-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/hotel-management/reference
+  - type: section-group
+    key: app-hrms-dashboard
+    title: HRMS Dashboard
+    icon: folder
+    children:
+    - type: section
+      key: hrms-dashboard-overview-section
+      title: Overview
+      path: hrms-dashboard
+      icon: book-blank
+      children:
+      - type: space
+        key: hrms-dashboard-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/hrms-dashboard/overview
+    - type: section
+      key: hrms-dashboard-getting-started-section
+      title: Getting Started
+      path: hrms-dashboard-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: hrms-dashboard-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/hrms-dashboard/getting-started
+    - type: section
+      key: hrms-dashboard-usage-guide-section
+      title: Usage Guide
+      path: hrms-dashboard-usage-guide
+      icon: book-blank
+      children:
+      - type: space
+        key: hrms-dashboard-usage-guide-space
+        title: Usage Guide
+        path: usage-guide
+        default: true
+        content:
+          directory: ./applications/hrms-dashboard/usage-guide
+    - type: section
+      key: hrms-dashboard-reference-section
+      title: Reference
+      path: hrms-dashboard-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: hrms-dashboard-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/hrms-dashboard/reference
+  - type: section-group
+    key: app-project-cost-management
+    title: Project Cost Management
+    icon: folder
+    children:
+    - type: section
+      key: project-cost-management-overview-section
+      title: Overview
+      path: project-cost-management
+      icon: book-blank
+      children:
+      - type: space
+        key: project-cost-management-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/project-cost-management/overview
+    - type: section
+      key: project-cost-management-getting-started-section
+      title: Getting Started
+      path: project-cost-management-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: project-cost-management-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/project-cost-management/getting-started
+    - type: section
+      key: project-cost-management-usage-section
+      title: Usage
+      path: project-cost-management-usage
+      icon: book-blank
+      children:
+      - type: space
+        key: project-cost-management-usage-space
+        title: Usage
+        path: usage
+        default: true
+        content:
+          directory: ./applications/project-cost-management/usage
+    - type: section
+      key: project-cost-management-reference-section
+      title: Reference
+      path: project-cost-management-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: project-cost-management-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/project-cost-management/reference
+  - type: section-group
+    key: app-odoo-premium-backend-theme
+    title: Premium Backend Theme
+    icon: folder
+    children:
+    - type: section
+      key: odoo-premium-backend-theme-overview-section
+      title: Overview
+      path: odoo-premium-backend-theme
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-premium-backend-theme-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/odoo-premium-backend-theme/overview
+    - type: section
+      key: odoo-premium-backend-theme-installation-section
+      title: Installation
+      path: odoo-premium-backend-theme-installation
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-premium-backend-theme-installation-space
+        title: Installation
+        path: installation
+        default: true
+        content:
+          directory: ./applications/odoo-premium-backend-theme/installation
+    - type: section
+      key: odoo-premium-backend-theme-admin-section
+      title: Admin
+      path: odoo-premium-backend-theme-admin
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-premium-backend-theme-admin-space
+        title: Admin
+        path: admin
+        default: true
+        content:
+          directory: ./applications/odoo-premium-backend-theme/admin
+    - type: section
+      key: odoo-premium-backend-theme-customization-section
+      title: Customization
+      path: odoo-premium-backend-theme-customization
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-premium-backend-theme-customization-space
+        title: Customization
+        path: customization
+        default: true
+        content:
+          directory: ./applications/odoo-premium-backend-theme/customization
+    - type: section
+      key: odoo-premium-backend-theme-features-section
+      title: Features
+      path: odoo-premium-backend-theme-features
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-premium-backend-theme-features-space
+        title: Features
+        path: features
+        default: true
+        content:
+          directory: ./applications/odoo-premium-backend-theme/features
+    - type: section
+      key: odoo-premium-backend-theme-reference-section
+      title: Reference
+      path: odoo-premium-backend-theme-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-premium-backend-theme-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/odoo-premium-backend-theme/reference
+  - type: section-group
+    key: app-inventory-analytics-pro
+    title: Inventory Analytics Pro
+    icon: folder
+    children:
+    - type: section
+      key: inventory-analytics-pro-overview-section
+      title: Overview
+      path: inventory-analytics-pro
+      icon: book-blank
+      children:
+      - type: space
+        key: inventory-analytics-pro-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/inventory-analytics-pro/overview
+    - type: section
+      key: inventory-analytics-pro-installation-section
+      title: Installation
+      path: inventory-analytics-pro-installation
+      icon: book-blank
+      children:
+      - type: space
+        key: inventory-analytics-pro-installation-space
+        title: Installation
+        path: installation
+        default: true
+        content:
+          directory: ./applications/inventory-analytics-pro/installation
+    - type: section
+      key: inventory-analytics-pro-dashboard-section
+      title: Dashboard
+      path: inventory-analytics-pro-dashboard
+      icon: book-blank
+      children:
+      - type: space
+        key: inventory-analytics-pro-dashboard-space
+        title: Dashboard
+        path: dashboard
+        default: true
+        content:
+          directory: ./applications/inventory-analytics-pro/dashboard
+    - type: section
+      key: inventory-analytics-pro-reports-section
+      title: Reports
+      path: inventory-analytics-pro-reports
+      icon: book-blank
+      children:
+      - type: space
+        key: inventory-analytics-pro-reports-space
+        title: Reports
+        path: reports
+        default: true
+        content:
+          directory: ./applications/inventory-analytics-pro/reports
+    - type: section
+      key: inventory-analytics-pro-features-section
+      title: Features
+      path: inventory-analytics-pro-features
+      icon: book-blank
+      children:
+      - type: space
+        key: inventory-analytics-pro-features-space
+        title: Features
+        path: features
+        default: true
+        content:
+          directory: ./applications/inventory-analytics-pro/features
+    - type: section
+      key: inventory-analytics-pro-reference-section
+      title: Reference
+      path: inventory-analytics-pro-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: inventory-analytics-pro-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/inventory-analytics-pro/reference
+  - type: section-group
+    key: app-project-employee-dashboard
+    title: Project & Employee Dashboard
+    icon: folder
+    children:
+    - type: section
+      key: project-employee-dashboard-overview-section
+      title: Overview
+      path: project-employee-dashboard
+      icon: book-blank
+      children:
+      - type: space
+        key: project-employee-dashboard-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/project-employee-dashboard/overview
+    - type: section
+      key: project-employee-dashboard-installation-section
+      title: Installation
+      path: project-employee-dashboard-installation
+      icon: book-blank
+      children:
+      - type: space
+        key: project-employee-dashboard-installation-space
+        title: Installation
+        path: installation
+        default: true
+        content:
+          directory: ./applications/project-employee-dashboard/installation
+    - type: section
+      key: project-employee-dashboard-dashboard-section
+      title: Dashboard
+      path: project-employee-dashboard-dashboard
+      icon: book-blank
+      children:
+      - type: space
+        key: project-employee-dashboard-dashboard-space
+        title: Dashboard
+        path: dashboard
+        default: true
+        content:
+          directory: ./applications/project-employee-dashboard/dashboard
+    - type: section
+      key: project-employee-dashboard-features-section
+      title: Features
+      path: project-employee-dashboard-features
+      icon: book-blank
+      children:
+      - type: space
+        key: project-employee-dashboard-features-space
+        title: Features
+        path: features
+        default: true
+        content:
+          directory: ./applications/project-employee-dashboard/features
+    - type: section
+      key: project-employee-dashboard-reference-section
+      title: Reference
+      path: project-employee-dashboard-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: project-employee-dashboard-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/project-employee-dashboard/reference
+  - type: section-group
+    key: app-whatsapp-messenger
+    title: WhatsApp Messenger
+    icon: folder
+    children:
+    - type: section
+      key: whatsapp-messenger-overview-section
+      title: Overview
+      path: whatsapp-messenger
+      icon: book-blank
+      children:
+      - type: space
+        key: whatsapp-messenger-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/whatsapp-messenger/overview
+    - type: section
+      key: whatsapp-messenger-sending-messages-section
+      title: Sending Messages
+      path: whatsapp-messenger-sending-messages
+      icon: book-blank
+      children:
+      - type: space
+        key: whatsapp-messenger-sending-messages-space
+        title: Sending Messages
+        path: sending-messages
+        default: true
+        content:
+          directory: ./applications/whatsapp-messenger/sending-messages
+    - type: section
+      key: whatsapp-messenger-message-tracking-section
+      title: Message Tracking
+      path: whatsapp-messenger-message-tracking
+      icon: book-blank
+      children:
+      - type: space
+        key: whatsapp-messenger-message-tracking-space
+        title: Message Tracking
+        path: message-tracking
+        default: true
+        content:
+          directory: ./applications/whatsapp-messenger/message-tracking
+    - type: section
+      key: whatsapp-messenger-configuration-section
+      title: Configuration
+      path: whatsapp-messenger-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: whatsapp-messenger-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/whatsapp-messenger/configuration
+  - type: section-group
+    key: app-pos-product-price-card
+    title: POS Product Price on Card
+    icon: folder
+    children:
+    - type: section
+      key: pos-product-price-card-overview-section
+      title: Overview
+      path: pos-product-price-card
+      icon: book-blank
+      children:
+      - type: space
+        key: pos-product-price-card-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/pos-product-price-card/overview
+    - type: section
+      key: pos-product-price-card-getting-started-section
+      title: Getting Started
+      path: pos-product-price-card-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: pos-product-price-card-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/pos-product-price-card/getting-started
+    - type: section
+      key: pos-product-price-card-configuration-section
+      title: Configuration
+      path: pos-product-price-card-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: pos-product-price-card-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/pos-product-price-card/configuration
+    - type: section
+      key: pos-product-price-card-usage-section
+      title: Usage
+      path: pos-product-price-card-usage
+      icon: book-blank
+      children:
+      - type: space
+        key: pos-product-price-card-usage-space
+        title: Usage
+        path: usage
+        default: true
+        content:
+          directory: ./applications/pos-product-price-card/usage
+    - type: section
+      key: pos-product-price-card-reference-section
+      title: Reference
+      path: pos-product-price-card-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: pos-product-price-card-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/pos-product-price-card/reference
+  - type: section-group
+    key: app-odoo-ai-assistant
+    title: Odoo AI Assistant
+    icon: folder
+    children:
+    - type: section
+      key: odoo-ai-assistant-overview-section
+      title: Overview
+      path: odoo-ai-assistant
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-ai-assistant-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/odoo-ai-assistant/overview
+    - type: section
+      key: odoo-ai-assistant-getting-started-section
+      title: Getting Started
+      path: odoo-ai-assistant-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-ai-assistant-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/odoo-ai-assistant/getting-started
+    - type: section
+      key: odoo-ai-assistant-features-section
+      title: Features
+      path: odoo-ai-assistant-features
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-ai-assistant-features-space
+        title: Features
+        path: features
+        default: true
+        content:
+          directory: ./applications/odoo-ai-assistant/features
+    - type: section
+      key: odoo-ai-assistant-configuration-section
+      title: Configuration
+      path: odoo-ai-assistant-configuration
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-ai-assistant-configuration-space
+        title: Configuration
+        path: configuration
+        default: true
+        content:
+          directory: ./applications/odoo-ai-assistant/configuration
+  - type: section-group
+    key: app-psql-query-execute
+    title: PSQL Delux Query Execute
+    icon: folder
+    children:
+    - type: section
+      key: psql-query-execute-overview-section
+      title: Overview
+      path: psql-query-execute
+      icon: book-blank
+      children:
+      - type: space
+        key: psql-query-execute-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/psql-query-execute/overview
+    - type: section
+      key: psql-query-execute-getting-started-section
+      title: Getting Started
+      path: psql-query-execute-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: psql-query-execute-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/psql-query-execute/getting-started
+    - type: section
+      key: psql-query-execute-usage-guide-section
+      title: Usage Guide
+      path: psql-query-execute-usage-guide
+      icon: book-blank
+      children:
+      - type: space
+        key: psql-query-execute-usage-guide-space
+        title: Usage Guide
+        path: usage-guide
+        default: true
+        content:
+          directory: ./applications/psql-query-execute/usage-guide
+    - type: section
+      key: psql-query-execute-reference-section
+      title: Reference
+      path: psql-query-execute-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: psql-query-execute-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/psql-query-execute/reference
+  - type: section-group
+    key: app-financial-reports
+    title: SDLC Financial Reports
+    icon: folder
+    children:
+    - type: section
+      key: financial-reports-overview-section
+      title: Overview
+      path: financial-reports
+      icon: book-blank
+      children:
+      - type: space
+        key: financial-reports-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/financial-reports/overview
+    - type: section
+      key: financial-reports-getting-started-section
+      title: Getting Started
+      path: financial-reports-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: financial-reports-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/financial-reports/getting-started
+    - type: section
+      key: financial-reports-reports-section
+      title: Reports
+      path: financial-reports-reports
+      icon: book-blank
+      children:
+      - type: space
+        key: financial-reports-reports-space
+        title: Reports
+        path: reports
+        default: true
+        content:
+          directory: ./applications/financial-reports/reports
+    - type: section
+      key: financial-reports-reference-section
+      title: Reference
+      path: financial-reports-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: financial-reports-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/financial-reports/reference
+  - type: section-group
+    key: app-maintenance-qr-code
+    title: Maintenance QR Generator
+    icon: folder
+    children:
+    - type: section
+      key: maintenance-qr-code-overview-section
+      title: Overview
+      path: maintenance-qr-code
+      icon: book-blank
+      children:
+      - type: space
+        key: maintenance-qr-code-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/maintenance-qr-code/overview
+    - type: section
+      key: maintenance-qr-code-getting-started-section
+      title: Getting Started
+      path: maintenance-qr-code-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: maintenance-qr-code-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/maintenance-qr-code/getting-started
+    - type: section
+      key: maintenance-qr-code-usage-guide-section
+      title: Usage Guide
+      path: maintenance-qr-code-usage-guide
+      icon: book-blank
+      children:
+      - type: space
+        key: maintenance-qr-code-usage-guide-space
+        title: Usage Guide
+        path: usage-guide
+        default: true
+        content:
+          directory: ./applications/maintenance-qr-code/usage-guide
+    - type: section
+      key: maintenance-qr-code-reference-section
+      title: Reference
+      path: maintenance-qr-code-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: maintenance-qr-code-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/maintenance-qr-code/reference
+  - type: section-group
+    key: app-access-management
+    title: Access Management
+    icon: folder
+    children:
+    - type: section
+      key: access-management-overview-section
+      title: Overview
+      path: access-management
+      icon: book-blank
+      children:
+      - type: space
+        key: access-management-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/access-management/overview
+  - type: section-group
+    key: app-asset-management
+    title: Asset Management
+    icon: folder
+    children:
+    - type: section
+      key: asset-management-overview-section
+      title: Overview
+      path: asset-management
+      icon: book-blank
+      children:
+      - type: space
+        key: asset-management-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/asset-management/overview
+    - type: section
+      key: asset-management-getting-started-section
+      title: Getting Started
+      path: asset-management-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: asset-management-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/asset-management/getting-started
+    - type: section
+      key: asset-management-usage-section
+      title: Usage
+      path: asset-management-usage
+      icon: book-blank
+      children:
+      - type: space
+        key: asset-management-usage-space
+        title: Usage
+        path: usage
+        default: true
+        content:
+          directory: ./applications/asset-management/usage
+    - type: section
+      key: asset-management-reference-section
+      title: Reference
+      path: asset-management-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: asset-management-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/asset-management/reference
+  - type: section-group
+    key: app-odoo-chatter-position
+    title: Odoo Chatter Position
+    icon: folder
+    children:
+    - type: section
+      key: odoo-chatter-position-overview-section
+      title: Overview
+      path: odoo-chatter-position
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-chatter-position-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/odoo-chatter-position/overview
+  - type: section-group
+    key: app-odoo-ip-restriction
+    title: Odoo IP Restriction
+    icon: folder
+    children:
+    - type: section
+      key: odoo-ip-restriction-overview-section
+      title: Overview
+      path: odoo-ip-restriction
+      icon: book-blank
+      children:
+      - type: space
+        key: odoo-ip-restriction-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/odoo-ip-restriction/overview
+  - type: section-group
+    key: app-user-login-audit
+    title: User Login Audit
+    icon: folder
+    children:
+    - type: section
+      key: user-login-audit-overview-section
+      title: Overview
+      path: user-login-audit
+      icon: book-blank
+      children:
+      - type: space
+        key: user-login-audit-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/user-login-audit/overview
+  - type: section-group
+    key: app-parking-management-system
+    title: Parking Management System
+    icon: folder
+    children:
+    - type: section
+      key: parking-management-system-overview-section
+      title: Overview
+      path: parking-management-system
+      icon: book-blank
+      children:
+      - type: space
+        key: parking-management-system-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/parking-management-system/overview
+  - type: section-group
+    key: app-pos-receipt-designer
+    title: POS Receipt Designer
+    icon: folder
+    children:
+    - type: section
+      key: pos-receipt-designer-overview-section
+      title: Overview
+      path: pos-receipt-designer
+      icon: book-blank
+      children:
+      - type: space
+        key: pos-receipt-designer-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/pos-receipt-designer/overview
+  - type: section-group
+    key: app-bi-dashboard-ai
+    title: BI Dashboard AI
+    icon: folder
+    children:
+    - type: section
+      key: bi-dashboard-ai-overview-section
+      title: Overview
+      path: bi-dashboard-ai
+      icon: book-blank
+      children:
+      - type: space
+        key: bi-dashboard-ai-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/bi-dashboard-ai/overview
+  - type: section-group
+    key: app-printbridge
+    title: PrintBridge
+    icon: folder
+    children:
+    - type: section
+      key: printbridge-overview-section
+      title: Overview
+      path: printbridge
+      icon: book-blank
+      children:
+      - type: space
+        key: printbridge-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/printbridge/overview
+  - type: section-group
+    key: app-dashboard-ninja-ai
+    title: Dashboard Ninja AI
+    icon: folder
+    children:
+    - type: section
+      key: dashboard-ninja-ai-overview-section
+      title: Overview
+      path: dashboard-ninja-ai
+      icon: book-blank
+      children:
+      - type: space
+        key: dashboard-ninja-ai-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/dashboard-ninja-ai/overview
+  - type: section-group
+    key: section-group-2
+    title: DAN AI
+    icon: folder
+    children:
+    - type: section
+      key: dan-ai-section
+      title: Overview
+      path: dan-ai
+      icon: book-blank
+      children:
+      - type: space
+        key: dan-ai-space
+        title: Overview
+        path: dan-ai
+        default: true
+        content:
+          directory: ./applications/dan-ai/overview
+    - type: section
+      key: dan-ai-getting-started-section
+      title: Getting Started
+      path: dan-ai-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: dan-ai-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/dan-ai/getting-started
+    - type: section
+      key: dan-ai-creating-an-extraction-section
+      title: Creating an Extraction
+      path: dan-ai-creating-an-extraction
+      icon: book-blank
+      children:
+      - type: space
+        key: dan-ai-creating-an-extraction-space
+        title: Creating an Extraction
+        path: creating-an-extraction
+        default: true
+        content:
+          directory: ./applications/dan-ai/creating-an-extraction
+    - type: section
+      key: dan-ai-features-section
+      title: Features
+      path: dan-ai-features
+      icon: book-blank
+      children:
+      - type: space
+        key: dan-ai-features-space
+        title: Features
+        path: features
+        default: true
+        content:
+          directory: ./applications/dan-ai/features
+    - type: section
+      key: dan-ai-export-delivery-section
+      title: Export & Delivery
+      path: dan-ai-export-delivery
+      icon: book-blank
+      children:
+      - type: space
+        key: dan-ai-export-delivery-space
+        title: Export & Delivery
+        path: export-delivery
+        default: true
+        content:
+          directory: ./applications/dan-ai/export-delivery
+    - type: section
+      key: dan-ai-reference-section
+      title: Reference
+      path: dan-ai-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: dan-ai-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/dan-ai/reference
+  - type: section-group
+    key: app-conflux
+    title: Conflux
+    icon: folder
+    children:
+    - type: section
+      key: conflux-overview-section
+      title: Overview
+      path: conflux
+      icon: book-blank
+      children:
+      - type: space
+        key: conflux-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/conflux/overview
+    - type: section
+      key: conflux-getting-started-section
+      title: Getting Started
+      path: conflux-getting-started
+      icon: book-blank
+      children:
+      - type: space
+        key: conflux-getting-started-space
+        title: Getting Started
+        path: getting-started
+        default: true
+        content:
+          directory: ./applications/conflux/getting-started
+    - type: section
+      key: conflux-the-console-page-by-page-section
+      title: The Console, Page by Page
+      path: conflux-the-console-page-by-page
+      icon: book-blank
+      children:
+      - type: space
+        key: conflux-the-console-page-by-page-space
+        title: The Console, Page by Page
+        path: the-console-page-by-page
+        default: true
+        content:
+          directory: ./applications/conflux/the-console-page-by-page
+    - type: section
+      key: conflux-reference-section
+      title: Reference
+      path: conflux-reference
+      icon: book-blank
+      children:
+      - type: space
+        key: conflux-reference-space
+        title: Reference
+        path: reference
+        default: true
+        content:
+          directory: ./applications/conflux/reference
+  - type: section-group
+    key: app-assetiq
+    title: AssetIQ
+    icon: folder
+    children:
+    - type: section
+      key: assetiq-overview-section
+      title: Overview
+      path: assetiq
+      icon: book-blank
+      children:
+      - type: space
+        key: assetiq-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/assetiq/overview
+  - type: section-group
+    key: app-careready
+    title: Careready
+    icon: folder
+    children:
+    - type: section
+      key: careready-overview-section
+      title: Overview
+      path: careready
+      icon: book-blank
+      children:
+      - type: space
+        key: careready-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/careready/overview
+  - type: section-group
+    key: app-causeway
+    title: Causeway
+    icon: folder
+    children:
+    - type: section
+      key: causeway-overview-section
+      title: Overview
+      path: causeway
+      icon: book-blank
+      children:
+      - type: space
+        key: causeway-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/causeway/overview
+  - type: section-group
+    key: app-cleardue
+    title: Cleardue
+    icon: folder
+    children:
+    - type: section
+      key: cleardue-overview-section
+      title: Overview
+      path: cleardue
+      icon: book-blank
+      children:
+      - type: space
+        key: cleardue-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/cleardue/overview
+  - type: section-group
+    key: app-convera-chatbot
+    title: Convera Chatbot
+    icon: folder
+    children:
+    - type: section
+      key: convera-chatbot-overview-section
+      title: Overview
+      path: convera-chatbot
+      icon: book-blank
+      children:
+      - type: space
+        key: convera-chatbot-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/convera-chatbot/overview
+  - type: section-group
+    key: app-curatio
+    title: Curatio
+    icon: folder
+    children:
+    - type: section
+      key: curatio-overview-section
+      title: Overview
+      path: curatio
+      icon: book-blank
+      children:
+      - type: space
+        key: curatio-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/curatio/overview
+  - type: section-group
+    key: app-custos
+    title: Custos
+    icon: folder
+    children:
+    - type: section
+      key: custos-overview-section
+      title: Overview
+      path: custos
+      icon: book-blank
+      children:
+      - type: space
+        key: custos-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/custos/overview
+  - type: section-group
+    key: app-enclave
+    title: Enclave
+    icon: folder
+    children:
+    - type: section
+      key: enclave-overview-section
+      title: Overview
+      path: enclave
+      icon: book-blank
+      children:
+      - type: space
+        key: enclave-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/enclave/overview
+  - type: section-group
+    key: app-fiscora
+    title: Fiscora
+    icon: folder
+    children:
+    - type: section
+      key: fiscora-overview-section
+      title: Overview
+      path: fiscora
+      icon: book-blank
+      children:
+      - type: space
+        key: fiscora-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/fiscora/overview
+  - type: section-group
+    key: app-foresite
+    title: Foresite
+    icon: folder
+    children:
+    - type: section
+      key: foresite-overview-section
+      title: Overview
+      path: foresite
+      icon: book-blank
+      children:
+      - type: space
+        key: foresite-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/foresite/overview
+  - type: section-group
+    key: app-limina
+    title: Limina
+    icon: folder
+    children:
+    - type: section
+      key: limina-overview-section
+      title: Overview
+      path: limina
+      icon: book-blank
+      children:
+      - type: space
+        key: limina-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/limina/overview
+  - type: section-group
+    key: app-loquio
+    title: Loquio
+    icon: folder
+    children:
+    - type: section
+      key: loquio-overview-section
+      title: Overview
+      path: loquio
+      icon: book-blank
+      children:
+      - type: space
+        key: loquio-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/loquio/overview
+  - type: section-group
+    key: app-matrica
+    title: Matrica
+    icon: folder
+    children:
+    - type: section
+      key: matrica-overview-section
+      title: Overview
+      path: matrica
+      icon: book-blank
+      children:
+      - type: space
+        key: matrica-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/matrica/overview
+  - type: section-group
+    key: app-migration-global-step
+    title: Migration Global Step
+    icon: folder
+    children:
+    - type: section
+      key: migration-global-step-overview-section
+      title: Overview
+      path: migration-global-step
+      icon: book-blank
+      children:
+      - type: space
+        key: migration-global-step-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/migration-global-step/overview
+  - type: section-group
+    key: app-narratio
+    title: Narratio
+    icon: folder
+    children:
+    - type: section
+      key: narratio-overview-section
+      title: Overview
+      path: narratio
+      icon: book-blank
+      children:
+      - type: space
+        key: narratio-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/narratio/overview
+  - type: section-group
+    key: app-narravyn
+    title: Narravyn
+    icon: folder
+    children:
+    - type: section
+      key: narravyn-overview-section
+      title: Overview
+      path: narravyn
+      icon: book-blank
+      children:
+      - type: space
+        key: narravyn-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/narravyn/overview
+  - type: section-group
+    key: app-praxis-ai
+    title: Praxis AI
+    icon: folder
+    children:
+    - type: section
+      key: praxis-ai-overview-section
+      title: Overview
+      path: praxis-ai
+      icon: book-blank
+      children:
+      - type: space
+        key: praxis-ai-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/praxis-ai/overview
+  - type: section-group
+    key: app-provisio
+    title: Provisio
+    icon: folder
+    children:
+    - type: section
+      key: provisio-overview-section
+      title: Overview
+      path: provisio
+      icon: book-blank
+      children:
+      - type: space
+        key: provisio-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/provisio/overview
+  - type: section-group
+    key: section-group-3
+    title: Pulastya AI
+    icon: folder
+    children:
+    - type: section
+      key: pulastya-ai-overview-section
+      title: Overview
+      path: pulastya-ai
+      icon: book-blank
+      children:
+      - type: space
+        key: pulastya-ai-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/pulastya-ai/overview
+  - type: section-group
+    key: app-reservo-fuel
+    title: Reservo Fuel
+    icon: folder
+    children:
+    - type: section
+      key: reservo-fuel-overview-section
+      title: Overview
+      path: reservo-fuel
+      icon: book-blank
+      children:
+      - type: space
+        key: reservo-fuel-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/reservo-fuel/overview
+  - type: section-group
+    key: app-rostra
+    title: Rostra
+    icon: folder
+    children:
+    - type: section
+      key: rostra-overview-section
+      title: Overview
+      path: rostra
+      icon: book-blank
+      children:
+      - type: space
+        key: rostra-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/rostra/overview
+  - type: section-group
+    key: app-stockyard
+    title: Stockyard
+    icon: folder
+    children:
+    - type: section
+      key: stockyard-overview-section
+      title: Overview
+      path: stockyard
+      icon: book-blank
+      children:
+      - type: space
+        key: stockyard-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/stockyard/overview
+  - type: section-group
+    key: app-tractus
+    title: Tractus
+    icon: folder
+    children:
+    - type: section
+      key: tractus-overview-section
+      title: Overview
+      path: tractus
+      icon: book-blank
+      children:
+      - type: space
+        key: tractus-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/tractus/overview
+  - type: section-group
+    key: app-trestle
+    title: Trestle
+    icon: folder
+    children:
+    - type: section
+      key: trestle-overview-section
+      title: Overview
+      path: trestle
+      icon: book-blank
+      children:
+      - type: space
+        key: trestle-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/trestle/overview
+  - type: section-group
+    key: app-vantage-industrial-vision
+    title: Vantage Industrial Vision
+    icon: folder
+    children:
+    - type: section
+      key: vantage-industrial-vision-overview-section
+      title: Overview
+      path: vantage-industrial-vision
+      icon: book-blank
+      children:
+      - type: space
+        key: vantage-industrial-vision-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/vantage-industrial-vision/overview
+  - type: section-group
+    key: app-wayfare
+    title: Wayfare
+    icon: folder
+    children:
+    - type: section
+      key: wayfare-overview-section
+      title: Overview
+      path: wayfare
+      icon: book-blank
+      children:
+      - type: space
+        key: wayfare-overview-space
+        title: Overview
+        path: overview
+        default: true
+        content:
+          directory: ./applications/wayfare/overview
