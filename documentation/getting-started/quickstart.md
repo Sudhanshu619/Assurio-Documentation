@@ -1,89 +1,76 @@
----
-description: Go from sign-up to your first deploy in under five minutes.
-icon: bolt
----
-
 # Quickstart
 
-This quickstart gets you to your first deploy as fast as possible. We'll skip most of the configuration — you can refine things later once you have something running.
+> Complete an example assurance review from scope to decision
 
-{% hint style="success" %}
-**Estimated time: 5 minutes.** All you need is an account and a project to deploy.
-{% endhint %}
+This walkthrough uses a **hypothetical internal policy assistant**, not a documented customer system or a guaranteed sequence of button clicks in Assurio. Adapt the example to the forms and permissions available in your environment.
 
-## Steps
+## Scenario
 
-{% stepper %}
-{% step %}
-#### Create your workspace
+An organization operates an employee assistant that answers questions using approved policy documents. It should cite the source material, avoid exposing unauthorized records and refer uncertain requests to a human. It must never modify financial or HR source records.
 
-Sign in and create a new workspace. The workspace name appears in URLs and email notifications, so pick something recognisable.
+| Scope attribute | Example value |
+| --- | --- |
+| System | Internal Policy Assistant |
+| Baseline | `policy-assistant/1.0` |
+| Intended users | Approved internal employees |
+| Sources | Versioned internal policy repository |
+| Permitted outputs | Informational, cited answers |
+| Prohibited actions | Writing enterprise records; high-stakes individual decisions |
+| Required oversight | Human escalation for uncertain or out-of-scope requests |
 
-```
-yourcompany
-```
-{% endstep %}
+### Step 1 — Scope the system
 
-{% step %}
-#### Connect a source
+Create or locate the AI system record using your deployment's system inventory feature. Capture intended use, user groups, business owner, model/provider, data sources, tools, interfaces, operating environment and exclusions. Assign a stable configuration identifier.
 
-Link a repository from your version control provider, or upload a project directly.
+**Check:** Another reviewer should be able to tell what configuration was actually evaluated without asking the project team.
 
-{% tabs %}
-{% tab title="Repository" %}
-Click **Connect repository**, authenticate with your provider, and select the repository to import. The platform will detect your framework automatically.
-{% endtab %}
+### Step 2 — Set governance and responsibilities
 
-{% tab title="Upload" %}
-Drag and drop a project folder, or use the CLI:
+Identify the system owner, risk reviewer, evidence reviewer and authorized acceptance authority. Define the policies and risk criteria that apply. Record whether the same person holds multiple responsibilities and any additional independence requirements.
 
-```bash
-platform deploy ./my-project
-```
-{% endtab %}
+### Step 3 — Assess risk and controls
 
-{% tab title="Template" %}
-Browse the template gallery and click **Use template**. A new project will be created from the template in your workspace.
-{% endtab %}
-{% endtabs %}
-{% endstep %}
+Document plausible harms, affected parties, threat or failure modes, severity, likelihood, existing mitigations and residual risk. For the example, include confidential information exposure, inaccurate policy advice, authorization bypass and loss of escalation.
 
-{% step %}
-#### Configure your build
+### Step 4 — Declare acceptance criteria
 
-Most projects work with the auto-detected settings. If yours doesn't, override them in **Project settings → Build**.
+Create testable claims such as:
 
-```yaml
-build:
-  command: npm run build
-  output: dist/
-  node: 20
-```
-{% endstep %}
+- **REQ-001 — Entitlements:** users cannot retrieve documents outside their approved access scope.
+- **REQ-002 — Grounding:** answers cite the correct version of an approved source.
+- **REQ-003 — Escalation:** ambiguous or unsupported requests invoke the agreed human-review pathway.
+- **REQ-004 — Non-mutation:** the assistant cannot write to underlying operational systems.
 
-{% step %}
-#### Deploy
+For each claim define the evaluation method, environments, acceptance threshold, known exceptions and owner. A qualitative promise is not a measurable acceptance criterion.
 
-Hit **Deploy**. Your project will build and go live at a generated subdomain. You can promote it to production or add a custom domain at any time.
+### Step 5 — Connect testing and evidence
 
-{% hint style="info" %}
-First builds typically take 1–3 minutes. Subsequent builds are faster because dependencies are cached.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+Evaluate nominal, boundary, adverse and user-permission scenarios. Preserve run metadata, baseline, test conditions, evaluator, results, source artifacts and any failures. Do not discard inconclusive or negative observations.
 
-## What's next?
+### Step 6 — Review findings
 
-You've shipped something — now make it yours.
+Group open issues by their impact on critical controls. If contractor-access tests fail, do not hide them behind an overall answer-quality average. Investigate and either remediate and retest, restrict the affected user group, or block acceptance.
 
-{% content-ref url="../guides/custom-domains.md" %}
-[custom-domains.md](../guides/custom-domains.md)
-{% endcontent-ref %}
+### Step 7 — Record a scoped decision
 
-{% content-ref url="../core-concepts/permissions.md" %}
-[permissions.md](../core-concepts/permissions.md)
-{% endcontent-ref %}
+An authorized person records the outcome, target baseline, approved user groups, allowed activities, excluded actions, conditions, evidence references, unresolved findings and next review trigger. Example: *Restricted internal pilot, employees only; no write actions; subject to monthly evidence review and any model/provider update.*
 
-{% content-ref url="../guides/automations.md" %}
-[automations.md](../guides/automations.md)
-{% endcontent-ref %}
+> The example statement is **illustrative**. It grants no real authorization.
+
+### Step 8 — Reassess after change
+
+If the model, index, retrieval policy or tool permissions change, compare the new configuration with the approved baseline. Identify affected claims, require new evidence for those claims, and document whether operating permission remains valid, is narrowed or is withdrawn.
+
+## Completion checklist
+
+- [ ] System and configuration identified
+- [ ] Owner and approval authority named
+- [ ] Intended use, users, exclusions documented
+- [ ] Risks and control owners defined
+- [ ] Testable acceptance criteria recorded
+- [ ] Relevant evidence and limitations retained
+- [ ] Open findings dispositioned
+- [ ] Scoped decision recorded by an authorized person
+- [ ] Change triggers and re-review responsibility assigned
+
+Continue with [Your first assurance review](first-assurance-review.md) for a more formal sign-off package.

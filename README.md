@@ -56,4 +56,3 @@ Assurio is designed to organize governance and assurance evidence; it is **not**
 - **Platform/integration administrator:** configures access, evidence ingestion, and operational processes.
 
 **Official product:** https://sdlccorp.com/products/assurio/
-# Assurio-Documentation

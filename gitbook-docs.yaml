@@ -19,7 +19,7 @@ site:
               title: Home
               path: home
               default: true
-              draft: true
+              draft: false
               content:
                 directory: ./home
         - type: section
@@ -33,7 +33,7 @@ site:
               title: Documentation
               path: documentation
               default: true
-              draft: true
+              draft: false
               content:
                 directory: ./documentation
         - type: section
@@ -47,7 +47,7 @@ site:
               title: API Reference
               path: api-reference
               default: true
-              draft: true
+              draft: false
               content:
                 directory: ./api-reference
         - type: section
@@ -61,7 +61,7 @@ site:
               title: Changelog
               path: changelog
               default: true
-              draft: true
+              draft: false
               content:
                 directory: ./changelog
         - type: section
@@ -75,7 +75,7 @@ site:
               title: Help Center
               path: help-center
               default: true
-              draft: true
+              draft: false
               content:
                 directory: ./help-center
     - type: section-group
