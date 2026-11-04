@@ -1,37 +1,150 @@
+---
+description: New updates and improvements
+icon: clock-rotate-left
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
+---
+
 # Changelog
 
-> Product updates, improvements and resolved issues
 
-Find the latest verified product changes, enhancements and fixes here. A changelog entry should explain **what changed**, **who is affected**, **whether action is required**, and **where to learn more**.
 
-> **No verified release history supplied.** The public marketing materials reviewed for this pack do not include an authoritative dated Assurio release log. To avoid misrepresenting shipped functionality, no actual release dates, version numbers or fixes are claimed below. Replace the template with engineering-approved release notes before publishing.
+{% updates format="full" %}
+{% update date="2025-12-03" tags="feature,improvement,fix" %}
+## Product update
 
-## Release note template — UNPUBLISHED EXAMPLE
+See what’s new and improved in our latest update.
 
-**Release:** `[verified version]`  
-**Release date:** `[YYYY-MM-DD]`  
-**Availability:** `[environments / plans / rollout status]`
+<div align="left"><figure><img src="https://gitbookio.github.io/onboarding-template-images/placeholder.png" alt=""><figcaption></figcaption></figure></div>
 
-### New features
+### Product feature
 
-- `[Feature name]` — Describe the user problem, functionality, and how to use it.
+* Feature description
+* Feature description
 
-### Improvements
+### Product feature
 
-- `[Enhancement]` — Explain behavior before and after; link to the affected guide.
+* Feature description
+* Feature description
 
-### Fixes
+<a href="2026/product-update.md" class="button primary">Read full update</a><a href="https://gitbook.com/" class="button secondary">Documentation</a>
 
-- `[Issue summary]` — Describe the resolved symptom, who was affected and any follow-up steps.
+<details>
 
-### Breaking changes / action required
+<summary>Improved</summary>
 
-- `[Compatibility or migration requirement]` — Include an owner, deadline, rollback option and verified documentation link.
+* Product improvement
+* Product improvement
+* Product improvement
+* Product improvement
+* Product improvement
 
-### Known limitations
+</details>
 
-- `[Supported limitations / workarounds]` — State their scope and how users can report problems.
+<details>
 
-## Editorial standard
+<summary>Fixed</summary>
 
-Do not describe a design proposal, mockup or beta plan as a shipped release. Confirm release date, deployment availability, feature flags and migration behavior with product engineering. Link the update to a [guide](../documentation/guides/README.md) or [API reference](../api-reference/README.md) when relevant.
+* Product fix
+* Product fix
+* Product fix
+* Product fix
+* Product fix
+
+</details>
+{% endupdate %}
+
+{% update date="2026-05-08" tags="feature,fix" %}
+## Product update
+
+See what’s new and improved in our latest update.
+
+<div align="left"><figure><img src="https://gitbookio.github.io/onboarding-template-images/placeholder.png" alt=""><figcaption></figcaption></figure></div>
+
+### Product feature
+
+* Feature description
+* Feature description
+
+<a href="2026/product-update-1.md" class="button primary">Read full update</a><a href="https://gitbook.com/" class="button secondary">Documentation</a>
+
+<details>
+
+<summary>Fixed</summary>
+
+* Product fix
+* Product fix
+* Product fix
+* Product fix
+* Product fix
+
+</details>
+{% endupdate %}
+
+{% update date="2025-11-18" tags="improvement,fix" %}
+## Product update
+
+See what’s new and improved in our latest update.
+
+<a href="2025/product-update.md" class="button primary">Read full update</a><a href="https://gitbook.com/" class="button secondary">Documentation</a>
+
+<details>
+
+<summary>Improved</summary>
+
+* Product improvement
+* Product improvement
+* Product improvement
+* Product improvement
+* Product improvement
+
+</details>
+
+<details>
+
+<summary>Fixed</summary>
+
+* Product fix
+* Product fix
+* Product fix
+* Product fix
+* Product fix
+
+</details>
+{% endupdate %}
+
+{% update date="2025-06-09" tags="feature" %}
+## Product update
+
+See what’s new and improved in our latest update.
+
+
+
+<div align="left"><figure><img src="https://gitbookio.github.io/onboarding-template-images/placeholder.png" alt=""><figcaption></figcaption></figure></div>
+
+### Product feature
+
+* Feature description
+* Feature description
+
+<a href="2025/product-update-1.md" class="button primary">Read full update</a><a href="https://gitbook.com/" class="button secondary">Documentation</a>
+{% endupdate %}
+{% endupdates %}
